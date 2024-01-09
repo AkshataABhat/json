@@ -1,0 +1,18 @@
+{
+  "line_items": {
+    "line_item": {
+      "net_amount": {},
+      "description": {},
+      "product_code": {},
+      "purchase_order": {},
+      "quantity": {},
+      "unit": {},
+      "unit_price": {},
+      "tax_rate": {},
+      "discount_amount": {},
+      "gross_amount": {},
+      "discount_rate": {},
+      "tax_amount": {}
+    }
+  }
+}
