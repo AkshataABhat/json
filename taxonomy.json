@@ -1,18 +1,22 @@
 {
-  "line_items": {
-    "line_item": {
-      "net_amount": {},
-      "description": {},
-      "product_code": {},
-      "purchase_order": {},
-      "quantity": {},
-      "unit": {},
-      "unit_price": {},
-      "tax_rate": {},
-      "discount_amount": {},
-      "gross_amount": {},
-      "discount_rate": {},
-      "tax_amount": {}
-    }
-  }
+    "line_items": [
+        {
+          "index": index of the line item,
+          "description": description of the line item or product, 
+          "quantity": number of units of the line item bought by the customer or client,
+          "unit_price": cost of 1 unit of the line item, 
+          "unit_of_measurement": Unit of measurement of the line item,
+          "tax":[{"tax_type": type of tax at the line item level,
+                      "tax_rate": tax rate at the line item level,
+                      "tax_amount": tax amount at the line item level}
+                    ],  
+          "net_amount": amount without tax at the line item level,
+          "gross_amount": amount with tax (net_amount at the line item level + tax_amount in tax at the line item level) at the line item level, 
+          "purchase_order": purchase order number or purchase order id at the line item level,
+          "discount_amount": discount at the line item level,
+          "discount_rate": discount rate at the line item level,
+          "categorization": category at the line item level,
+          "gl_class": GL code class at the line item level
+         }
+        ]
 }
