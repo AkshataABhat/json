@@ -1,13 +1,31 @@
 {
     "items": [
         {
-            "value": "invoice_id"
+            "alias": "archaea01",
+            "hint": "Single-celled organisms",
+            "value": "Archaea"
         },
         {
-            "value": "line_items",
+            "alias": "bacteria01",
+            "hint": "Prokaryotic microorganisms",
+            "value": "Bacteria"
+        },
+        {
+            "alias": "eukarya01",
+            "hint": "Basically everything else",
+            "value": "Eukarya",
             "children": [
                 {
-                    "value": "line_item/quantity"
+                    "alias": "eukarya01_b1",
+                    "value": "Human"
+                },
+                {
+                    "alias": "eukarya01_b2",
+                    "value": "Opossum"
+                },
+                {
+                    "alias": "eukarya01_b3",
+                    "value": "Extraterrestrial"
                 }
             ]
         }
