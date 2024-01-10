@@ -1,22 +1,17 @@
 {
-    "line_items": [
+    "items": [
+	{
+	   "value":"invoice_id"
+	},
         {
-          "index",
-          "description", 
-          "quantity",
-          "unit_price", 
-          "unit_of_measurement",
-          "tax":[{"tax_type",
-                      "tax_rate",
-                      "tax_amount"}
-                    ],  
-          "net_amount",
-          "gross_amount", 
-          "purchase_order",
-          "discount_amount",
-          "discount_rate",
-          "categorization",
-          "gl_class"
-         }
-        ]
+         
+        "value": "line_items"
+	    "children":[
+		{
+		 "value": "line_item/quantity"
+
+        }
+    ]
+}
+    ]
 }
