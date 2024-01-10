@@ -1,17 +1,15 @@
 {
     "items": [
-	{
-	   "value":"invoice_id"
-	},
         {
-         
-        "value": "line_items"
-	    "children":[
-		{
-		 "value": "line_item/quantity"
-
+            "value": "invoice_id"
+        },
+        {
+            "value": "line_items",
+            "children": [
+                {
+                    "value": "line_item/quantity"
+                }
+            ]
         }
-    ]
-}
     ]
 }
